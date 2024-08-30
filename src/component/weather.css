@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.WeatherContainer{
+    place-self: center;
+}
+.GlassCard {
+    background: rgba(255, 255, 255, 0.2); /* White background with transparency */
+    backdrop-filter: blur(10px); /* Apply blur */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    max-width: 400px; /* Optional: Adjust width */
+    margin: 0 auto; /* Center the card */
+    color: #fff; /* Ensure text color is visible */
+  }
+  
+  .Search-Box {
+    margin-bottom: 20px; /* Add some spacing between search box and weather details */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 130px;
+    
+    
+  }
+  
+  .Search-Box-Input {
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent input */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Border to match glass effect */
+    color: #fff; /* White text for better visibility */
+    height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 25px;
+  font-size: 18px;
+  }
+  
+  .textcolor p {
+    margin: 5px 0; /* Adjust spacing for weather details */
+  }
+  
+  .TimeDisplay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .ClockIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    
+  }
+  
+  
+  .textcolor
+  {
+    font-size: 28px;
+    font-weight: 100;
+  }

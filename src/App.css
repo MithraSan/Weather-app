@@ -1,0 +1,13 @@
+*
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.App {
+  display: grid;
+  background-image: url('./carolina.jpg');
+  background-size:cover ;
+  height: 100vh;
+  
+}
+
+ 
